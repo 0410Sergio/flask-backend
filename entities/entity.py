@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 db_url = 'db-stock-data.c0iscncut9ja.us-east-1.rds.amazonaws.com'
 db_name = 'mydb'
 db_user = 'sergiocxz'
-db_password = '8839Sanchez'
+db_password = '******'
 engine = create_engine(f'postgresql://{db_user}:{db_password}@{db_url}/{db_name}')
 Session = sessionmaker(bind=engine)
 
